@@ -6,7 +6,7 @@ box-sizing: border-box;
 .slider-container{
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 100%;
     overflow: hidden;
     margin: auto 0;
 }

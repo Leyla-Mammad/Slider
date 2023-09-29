@@ -3,7 +3,7 @@ let prevBtn = document.getElementById("prevBtn");
 let nextBtn = document.getElementById("nextBtn");
 let sliderIMG = document.getElementById("sliderIMG");
 
-let sliderContainer = document.querySelector("slider-container");
+let sliderContainer = document.querySelector(".slider-container");
 
 
 let images = [
@@ -20,6 +20,7 @@ function SlideImage(){
     }else if(currentIndex >= images.length){
         currentIndex = 0;
     }
+    console.log(images[currentIndex])
     sliderIMG.src = images[currentIndex];
 }
 
